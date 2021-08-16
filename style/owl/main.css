@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
+
+:root{
+  --vermelho:#E50914;
+  --preto: #141414;
+}
+
+/*RESET INICIO*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*RESET FIM*/
+
+
+/*BODY INICIO*/
+body{
+  background-color: var(--preto);
+  font-family: 'Arial', Times, serif;
+  color: white;
+}
+/*BODY FIM*/
+
+/*HEADER INICIO*/
+header .container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between ;
+}
+
+
+header .logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ margin-left: 5px; /*espaçamento do canto (gameflix*/
+ color: var(--vermelho);
+ font-family: 'Netflix erif', times; /*tipo da fonte*/
+ font-size: 35px; /*tamanho da fonte*/
+ 
+}
+.link{
+ text-align: left;
+}
+header nav a{
+  text-decoration: none; /*retira a linha que fica abaixo dos links*/
+  color: #AAA;
+  margin-right: 10px; /*da espaçamento entre os links*/
+}
+
+/*Evento para quando o mouse passar em cima dos links de navegação*/
+header nav a:hover{
+  color: #FFF;
+}
+/*HEADER Fim*/
+
+/*MAIN Inicio*/
+
+/*Jogo Principal*/
+.jogo-principal{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa3.jpg');
+  height: 400px;/*tamanho da caixa da imagem*/
+  background-size:cover; /*ajusta a imagem na caixa*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.jogo-principal{
+  color: rgb(255, 251, 251);
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.titulo{
+  margin-top: 15px;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.descricao{
+  margin-top: 10px;
+}
+
+.botao{
+  background-color: rgba(0, 0, 0, 0.597); /*transparencia*/
+  border: none;
+  color: white;
+
+  margin-top: 20px;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+
+  cursor:pointer;
+  transition: .3s ease all;
+}
+
+.botao:hover{ /*mudar a cor dos botoes quando passa o mouse por cima*/
+  background-color: white;
+  color: black;
+}
+
+.botao i{ /*espaçamento do icone dentro do botao*/
+  margin-right: 8px;
+}
+
+.container{
+ margin-left: 20px; 
+}
+
+.jogo-principal .container{
+  width: 70%;
+}
+/*MAIN Fim*/
+
+/*Box-Filme Inicio*/
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carousel-filmes{
+  margin-top: 8px;
+}
+
+.titulo2{
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: 'Arial', Arial, sans-serif;
+}
+
+/*Box-Filme Inicio*/
