@@ -39,16 +39,17 @@ header .logo{
  margin-left: 5px; /*espaçamento do canto (gameflix*/
  color: var(--vermelho);
  font-family: 'Netflix erif', times; /*tipo da fonte*/
- font-size: 35px; /*tamanho da fonte*/
+ font-size: 45px; /*tamanho da fonte*/
  
 }
 .link{
  text-align: left;
+ font-size: 21px;
 }
 header nav a{
   text-decoration: none; /*retira a linha que fica abaixo dos links*/
   color: #AAA;
-  margin-right: 10px; /*da espaçamento entre os links*/
+  margin-right: 15px; /*da espaçamento entre os links*/
 }
 
 /*Evento para quando o mouse passar em cima dos links de navegação*/
